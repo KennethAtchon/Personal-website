@@ -67,7 +67,7 @@ app.post('/client', async function(req, res) {
 
     let info = await transporter.sendMail({
        from: 'bugtracker89@hotmail.com', // sender address
-        to: `kenneth.atchon@hotmail.com`, // list of receivers
+        to: ``, // list of receivers
         subject: "Personal Website Contact Info", // Subject line
         text: `Someone sent you a message!`, // plain text body
         html: `
